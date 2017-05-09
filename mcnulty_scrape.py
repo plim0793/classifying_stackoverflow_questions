@@ -157,12 +157,12 @@ url_t = list(pd.read_csv("links_1.csv").iloc[458:100000]['links'])
 #url_t
 
 #counter = 3
-for counter in range(19, 248):
+for counter in range(250):
 #for index in range(858, 100000, 400):
     #start = index
     #end = index + 400
     #fname = r'users_' + str(counter) + r'.csv'
-    scrape_users(url_t[858 + counter * 400 : 858 + (counter + 1) * 400], r'users_' + str(counter + 3) + r'.csv')
+    scrape_users(url_t[102936 + counter * 400 : 102936 + (counter + 1) * 400], r'users_' + str(counter + 2) + r'.csv')
     #df_t = scrape_users(url_t[start:end], fname)
     #print("\n\n")
     gc.collect()
