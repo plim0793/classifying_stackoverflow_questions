@@ -1,4 +1,4 @@
-# Project_McNulty - Classifying Stackoverflow Questions
+# Classifying Stackoverflow Questions
 
 **Code can be found in the classification folder**
 
